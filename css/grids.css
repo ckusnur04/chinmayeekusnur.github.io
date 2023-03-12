@@ -1,0 +1,408 @@
+*{
+    box-sizing: border-box;
+}
+
+.grid{
+    display:grid;
+}
+
+@media (min-width: 20rem) {
+
+    #intro{
+        font-size: 1rem;
+        line-height:1;
+    }
+
+    #intro-covinize{
+        font-size: 2rem;
+        line-height:1;
+    }
+
+    .grid.two-column{
+        grid-template-columns: 1fr;
+        grid-gap: 4rem;
+        grid-row-gap: 2rem;
+    }
+
+    .grid.three-column{
+        grid-template-columns: 1fr;
+        grid-column-gap: 2rem;
+        margin-top:-1rem;
+    }
+
+    #intro{
+        margin: 6rem 2rem 4rem 2rem;
+        
+    }
+
+    .projects{
+        margin: 4rem 2rem 4rem 2rem;
+    }
+
+    .projects-text{
+        margin: 2rem 4rem;
+    }
+
+    #intro-project{
+        margin: 8rem 2rem 2rem 2rem;
+    }
+
+    
+
+    .color-grid{
+        margin: 1.5rem;
+    }
+
+    #work-navbar, #work-navbar-index{
+        margin-left: 1.5rem;
+    }
+
+    .orange-box{
+        background-color: #9F5640;
+        padding: 2rem 0 2rem 0;
+        border-radius: 0.5rem;
+        width: 100%;
+    }
+
+    img{
+        width: 95%;
+        height: auto;
+    }
+
+    #green, #yellow, #beige{
+        width: 100%;
+        padding: 4rem 2rem 4rem 2rem;
+    }
+
+    .heading{
+        margin-top: 4rem;
+    }
+
+    .sub-heading{
+        margin-top: 4rem;
+    }
+
+    .desktop-version{
+        display: none;
+    }
+
+    .mobile-version{
+        display: inline-block;
+    }
+
+    #tree-img{
+        margin-bottom:2rem;
+    }
+}
+
+@media (min-width: 48rem) {
+
+    #intro{
+        font-size: 1em;
+        margin:0;
+        line-height:1;
+    }
+
+    .heading{
+        margin-top: 8rem;
+    }
+
+    #intro-covinize{
+        font-size: 2.5rem;
+        
+        line-height:1;
+    }
+
+    .grid.two-column{
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        grid-row-gap: 2rem;
+    }
+
+    .grid.three-column{
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        grid-row-gap: 1rem;
+    }
+
+    #footer-background{
+        padding: 4rem;
+    }
+
+    .color-grid{
+        margin: 0 4rem;
+    }
+
+    #work-navbar, #work-navbar-index{
+        margin-left: 4rem;
+    }
+
+    #intro-covinize{
+        margin: 6rem 4rem 5rem 4rem;
+    }
+
+    .landing-page-description{
+        margin: 3rem 4rem 5rem 4rem;
+    }
+
+    #intro{
+        margin: 16rem 4rem 4rem 4rem;
+        max-width: 80%;
+        
+    }
+
+    .projects{
+        margin: 8rem 12rem 4rem 12rem;
+    }
+
+    .projects-home{
+        margin: 12rem 4rem 4rem 4rem;
+    }
+
+    .projects-text{
+        margin: 2rem 12rem;
+    }
+
+    #intro-project{
+        margin: 8rem 12rem 2rem 12rem;
+    }
+
+    .orange-box{
+        background-color: #9F5640;
+        padding: 4rem 2rem;
+        border-radius: 0.5rem;
+        width: 100%;
+    }
+
+    img{
+        width: 95%;
+        height: auto;
+    }
+
+    .grid.three-column{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2rem;
+        
+    }
+
+    .grid.four-column{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 2rem;
+         
+    }
+
+    #green, #yellow, #beige{
+        width: 100%;
+        padding: 4rem 2rem 4rem 2rem;
+    }
+    
+    #navbar {
+        top: 0px;
+        transition: top 0.3s;
+    }
+
+    .sub-heading{
+        margin-top: 6rem;
+    }
+
+    #tree-img{
+        margin-bottom:4rem;
+    }
+
+    .desktop-version{
+        display: none;
+    }
+
+    .mobile-version{
+        display: inline-block;
+    }
+
+    .block {
+        margin-bottom: 2rem;
+    }
+
+    .p-lm{
+        margin-top: 0.5rem;
+    }
+
+    .project-img{
+        margin-top: 4rem;
+    }
+
+    .pb{
+        margin-top:1rem;
+    }
+
+}
+
+@media (min-width: 67rem) {
+
+    #intro, #intro-covinize{
+        font-size: 1.2rem;
+        line-height:1.2;
+    }
+
+    #sub{
+        font-size: 1.4rem;
+    }
+
+    .ind{
+        margin-bottom: 4rem;
+    }
+
+    .grid.two-column{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 6rem;
+        grid-row-gap: 2rem;
+    }
+
+    .grid.two-column-ind{
+        grid-template-columns: 1fr 4fr;
+        grid-gap: 6rem;
+        grid-row-gap: 2rem;
+    }
+
+    .grid.three-column{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2rem;
+        
+    }
+    
+    #intro{
+        margin: 24rem 4rem 8rem 4rem;
+        
+        
+    }
+
+    .projects{
+        margin: 12rem 12rem 8rem 12rem;
+    }
+
+    .projects-home{
+        margin: 12rem 4rem 8rem 4rem;
+    }
+
+    .projects-text{
+        margin: 4rem 12rem;
+    }
+
+    #intro-project{
+        margin: 10rem 12rem 4rem 12rem;
+    }
+
+    .grid.four-column{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 2rem;
+    }
+
+    #footer-background{
+        padding: 4rem;
+    }
+
+    .color-grid{
+        margin: 0 12rem;
+    }
+
+    #intro-covinize{
+        margin: 10rem 12rem 3rem 12rem;
+    }
+
+    .landing-page-description{
+        margin: 2rem 12rem 3rem 12rem;
+    }
+
+    #work-navbar{
+        margin-left: 4rem;
+    }
+   
+    .orange-box{
+        background-color: #9F5640;
+        padding: 4rem 0 4rem 2rem;
+        border-radius: 0.5rem;
+        width: 100%;
+    }
+
+    img{
+        width: 90%;
+        height: auto;
+    }
+
+    #green, #yellow, #beige{
+        width: 100%;
+        padding: 4rem;
+    }
+
+    .heading{
+        margin-top:0;
+    }
+
+    .sub-heading{
+        margin-top: 6rem;
+    }
+
+    #tree-img{
+        margin-bottom:4rem;
+    }
+
+    .mobile-version{
+        display: none;
+    }
+
+    .desktop-version{
+        display: inline-block;
+    }
+
+    .block {
+        margin-bottom: 6rem;
+    }
+
+    .p-lm{
+        margin-top: 2rem;
+    }
+
+    .project-img{
+        margin-top: 0rem;
+    }
+
+    .pb{
+        margin-top:3rem;
+    }
+
+    .container{
+        margin-bottom: 5rem;
+    }
+    
+    .p-desc-ind{
+        margin-bottom: 2rem;
+    }
+
+    #t{
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 75rem) {
+
+    #intro, #intro-covinize{
+        font-size: 1.2rem;
+        line-height:1.2;
+    }
+
+    #intro{
+        margin: 24rem 4rem 8rem 4rem;
+    }
+}
+
+@media (min-width: 98rem) {
+
+    #intro, #intro-covinize{
+        font-size: 1.4rem;
+        line-height:1.2;
+    }
+
+    #intro{
+        margin: 36rem 4rem 8rem 4rem;
+    }
+}
+
+
