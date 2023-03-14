@@ -375,6 +375,10 @@
     .p-desc-ind{
         margin-bottom: 2rem;
     }
+    
+    .points-desc-ind{
+        margin-bottom: 1rem;
+    }
 
     #t{
         margin-top: 2rem;
