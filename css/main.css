@@ -15,7 +15,10 @@ h1, #sub{
     
 }
 
-
+.sub-dd{
+    color: #000000;
+    
+}
 
 .block {
     margin-bottom: 6rem;
@@ -107,7 +110,8 @@ h1, #sub{
 }
 
 .p-lm a:active, .p-lm a:hover, .p-lm a:focus{
-    color: #000000;
+    color: #025AFF;
+    text-decoration: underline;
 }
 
 .orange-box{
@@ -119,7 +123,7 @@ h1, #sub{
 }
 
 #footer-background{
-    background-color: #ECECEC;  
+    background-color: #dfdfdf;  
 }
 
 #footer-email{
@@ -153,10 +157,11 @@ h1, #sub{
 }
 
 .t{
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     font-size: 1rem;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+    color:black;
 }
   
 
@@ -176,9 +181,9 @@ h1, #sub{
 .link{
     color: #025AFF;
     font-family: 'Inter', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 1rem;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .c-link{
