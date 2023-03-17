@@ -239,6 +239,14 @@ h1, #sub{
     width: 100%;
 }
 
+.cb{
+    margin-top: 0.5rem;
+}
+
+.grey{
+    margin-bottom: 0.5rem;
+}
+
 .bold{
     font-weight: 700;
 }
