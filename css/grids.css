@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    line-height: 150%;
 }
 
 .grid{
@@ -379,10 +380,6 @@
     }
 
     .container{
-        margin: 5rem 14rem 5rem 14rem;
-    }
-
-    .container_1{
         margin-bottom: 5rem;
     }
     
