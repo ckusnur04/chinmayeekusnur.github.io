@@ -4,13 +4,15 @@ h1{
     line-height:120%;
 }
 
+
 h2{
     font-family: 'Inter', sans-serif;
     color: #000000;
+    font-weight:500;
 }
 
 h1, #sub{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif; 
     color: #000000;
     
 }
@@ -41,25 +43,18 @@ h1, #sub{
 }
 
 #brief{
-    color: #025AFF;
+    font-family: 'Inter', sans-serif; 
+    color: #D62D88;
+}
+
+#brief-1{
+    font-family: 'Inter', sans-serif; 
+    color: #D62D88;
 }
 
 .bold{
     font-weight: 500;
 }
-
-.p-title-ind{
-    line-height: 1.6;
-    margin-bottom: 2rem;
-    font-weight: 500;
-    font-size: 1.4rem;
-}
-
-.p-desc-ind{
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-}
-
 
 .p-title, .p-desc, .p-lm{
     font-family: 'Inter', sans-serif;
@@ -88,9 +83,7 @@ h1, #sub{
 }
 
 .p-title{
-    font-size: 1.4rem;
-    font-weight: 700;
-    /* margin-top: 5rem; */
+    margin-bottom: 1rem;
 }
 
 .p-desc{
@@ -100,18 +93,18 @@ h1, #sub{
 
 .p-lm{
     font-weight: 500;
-    color: #025AFF;
+    color: #D62D88;
 }
 
 
 .p-lm a{
-    color: #025AFF;
+    color: #D62D88;
     text-decoration: none;
 }
 
 .p-lm a:active, .p-lm a:hover, .p-lm a:focus{
-    color: #025AFF;
-    text-decoration: underline;
+    color: #D62D88;
+    text-decoration: none;
 }
 
 .orange-box{
@@ -178,7 +171,7 @@ h1, #sub{
 }
 
 .link{
-    color: #025AFF;
+    color: #D62D88;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     margin-top: 1rem;
@@ -193,21 +186,21 @@ h1, #sub{
 .project-name:active, .project-name:hover, .project-name:focus,
 .c-link:active, .c-link:hover, .c-link:focus{
     text-decoration: underline;
-    text-decoration-color: #025AFF;
+    text-decoration-color: #D62D88;
     
 }
 
 .link:active, .link:hover, .link:focus{
     text-decoration: none;
     color: white;
-    background-color: #025AFF;
+    background-color: #D62D88;
 }
 
 .project-info{
-    color: #AFAFAF;
+    color: #252526;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    margin-top: -0.7rem;
+    padding-top: 15%;
 }
 
 .project-desc{
@@ -239,14 +232,6 @@ h1, #sub{
     width: 100%;
 }
 
-.cb{
-    margin-top: 0.5rem;
-}
-
-.grey{
-    margin-bottom: 0.5rem;
-}
-
 .bold{
     font-weight: 700;
 }
@@ -259,6 +244,14 @@ h1, #sub{
 #yellow{
     background-color: #FFB950;
     color: #37563F;
+}
+
+.cb{
+    margin-top: 0.5rem;
+}
+
+.grey{
+    margin-bottom: 0.5rem;
 }
 
 #beige{
