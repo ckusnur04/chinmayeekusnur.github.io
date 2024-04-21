@@ -1,211 +1,76 @@
 <!DOCTYPE html>
-
-<!-- IAT 339- Web design and development 
-     D101 
-     Project 3- Portfolio
-     Chinmayee Kusnur 
-    -->
-
-     
 <html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chinmayee Kusnur</title>
-
-    <!-- Linking stylesheets -->
-
-    <link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css"> 
-    <link rel="stylesheet" href="css/grids.css"> 
-    <!-- Linking google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  </head>
-
-  <body>
-
-    <nav id="navbar">
-      <a id="work-navbar-index" href="index.html">Work</a>
-      <a href="about.html">About</a>
-    </nav> 
-
-    <section class="main-background">
-      <div id="intro">
-        <h1>
-         <span id="brief">Chinmayee Kusnur</span> 
-		is a data-driven product designer passionate about building design systems, strategy, and crafting accessible user experiences.
-        </h1>
-        <div class="currently">Currently Exploring Post-Grad Opportunities - January 2024</div>
-      </div>
-
-      <section id="projects" class="projects-home">
-
-        <div class="grid two-column">
-          <div>
-            <div class="container_1">
-              
-              <div class="block"><a href="mazda.html"><img class="project-img" src="img/mazda-screens.png"></a></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinmayee's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <main class="home">
+        <nav class="header">
+            <a href="#" class="name">CHINMAYEE KUSNUR</a>
+            <div class="navigation">
+                <a href="about.html" class="about">ABOUT</a>
+                <a href="https://drive.google.com/file/d/1nU3gzmekybQR0z4NYIqT24EsP7FCDhdO/view?pli=1" class="resume-1">RESUME</a>
             </div>
-          </div>
-          <div class="project-info">
-            <div class="p-title">
-              <h2>Mazda | Experience Design</h2>
+        </nav>
+        <div id="intro" class="intro">
+            <p>
+                I’m a strategic, empathetic, and data-driven designer aiming to explore,
+                understand and change the world through my work.
+            </p>
+            <div class="roles u">
+                <div class="role">UX DESIGNER</div>
+                <div class="role">UX RESEARCHER</div>
+                <div class="role">SUSTAINABILITY & CLIMATE CHANGE ENTHUSIAST</div>
+                <div class="role">UN WOMEN AWARDEE 2020</div>
+                <div class="role">GLOBE-TROTTER</div>
             </div>
-            
-            <div>
-              Designed the Mazda dealership vehicle maintenance product by leveraging existing touchpoints to improve the Mazda owner's vehicle maintenance experience.
-            </div>
-
-            <div class="p-lm">
-             <a href="mazda.html">Read more</a>
-            </div>
-          </div>
         </div>
 
-	<div class="grid two-column">
-          <div>
-            <div class="container_1">
-              <div class="block"><a href="nokia.html"><img class="project-img" src="img/nokia-screens.png"></a></div>
-            </div>
-          </div>
-
-          <div class="project-info">
-            <div class="p-title">
-              <h2>Nokia | UX Design </h2>
-            </div>
-            
-            <div>
-              Led a project to revamp a section of Nokia's website to align with new design standards, enhancing usability, information organization, and user 
-		    satisfaction while fostering collaborative space for developers. 
+        <div class="work">
+            <div id="nokia" class="grid-container">
+                <div class="left-box">
+                    <a href="nokia.html"><img class="image" src="img/nokia_home.png" alt="Centered Image"></a>
+                </div>
+                <div class="vehicle-experience">
+                    <div class="experience-title">Collaborative Community Platform for Developers:</div>
+                    <div class="experience-description">Empowering Nokia developers to generate content <br> and share knowledge seamlessly.</div>
+                    <a href="nokia.html" class="view-case-study">VIEW CASE STUDY</a>
+                </div>
             </div>
 
-            <div class="p-lm">
-             <a href="nokia.html">Read more</a>
-            </div>
-          </div>
-        </div>
-<!--
-	<div class="grid two-column">
-          <div>
-            <div class="container_1">
-              <div class="block"><a href="STRP.html"><img class="project-img" src="STRP.png"></a></div>
-            </div>
-          </div>
-
-
-          <div class="project-info">
-            <div class="p-title">
-              <h2>STRP Biennale | Visual Design </h2>
-            </div>
-            
-            <div>
-              Designed an experience to encourage people to go for STRP's event of the future of posthumanism. Used Allen Hori as inspiration for this visual design project. 
+            <div id="mazda" class="grid-container-change">
+                <div class="vehicle-experience-change">
+                    <div class="experience-title">Vehicle maintenance experience for Mazda:</div>
+                    <div class="experience-description">Enhancing user experience on the MyMazda app by aligning various touchpoints.                    </div>
+                    <a href="mazda.html" class="view-case-study">VIEW CASE STUDY</a>
+                </div>
+                <div class="right-box">
+                    <a href="mazda.html"><img class="image-change" src="img/mazda_home.png" alt="Centered Image"></a>
+                </div>
             </div>
 
-            <div class="p-lm">
-             <a href="STRP.html">Read more</a>
+            <div id="form" class="grid-container">
+                <div class="left-box-form">
+                    <a href="form.html"><img class="image" src="img/form_home.png" alt="Centered Image"></a>
+                </div>
+                <div class="vehicle-experience">
+                    <div class="experience-title">Essential Workout Filters <br> for Swimmers:</div>
+                    <div class="experience-description">Enabling swimmers to pick the most desired workout <br> for their next swim on the go.</div>
+                    <a href="form.html" class="view-case-study">VIEW CASE STUDY</a>
+                </div>
             </div>
-          </div>
-        </div> 
-	      -->
-	      
-        <div class="grid two-column">
-          <div>
-            <div class="container_1">
-              <div class="block"><a href="form.html"><img class="project-img" src="img/form-screens.png"></a></div>
-            </div>
-          </div>
-          <div class="project-info">
-            <div class="p-title">
-              <h2>Form Swim | Product Design</h2>
-            </div>
-            
-            <div>
-              Designed six additional workout filters for the "Workouts" feature on the app  
-              to enable swimmers to pick the most desired workout for their next swim.  
-            </div>
-
-            <div class="p-lm">
-             <a href="form.html">Read more</a>
-            </div>
-          </div>
         </div>
 
-        
-
-        <!-- <div class="grid three-column">
-          <div>
-            <div class="container">
-              <div class="block"><a href="cirendipity.html"><img class="project-img" src="img/c-logo.png"></a></div>
+        <footer class="contact">
+            <div class="contact-details">
+                <a href="mailto:kusnurchinmayee@gmail.com" class="email">KUSNURCHINMAYEE@GMAIL.COM</a>
+                <a href="https://www.linkedin.com/in/chinmayee-kusnur/" class="linkedin">LINKEDIN</a>
+                <a href="https://drive.google.com/file/d/1nU3gzmekybQR0z4NYIqT24EsP7FCDhdO/view?pli=1" class="resume">RESUME</a>
             </div>
-          </div>
-
-          <div>
-            <div class="container">
-              <div class="block"><a href="covinize.html"><img class="project-img" src="img/covinise-logo.png"></a></div>
-            </div>
-          </div>
-
-          <div>
-            <div class="container">
-              <div class="block"><a href="STRP.html"><img class="project-img" src="img/posthumanism-logo.png"></a></div>
-            </div>
-          </div>
-        </div> -->
-      </section>
-      
-
-    </section>
-
-    
-
-    <footer>
-
-      <div class="row">
-
-        <div class="column side-padding">
-  
-          <h4>Thank you for stopping by!</h4>
-  
-          <p>I am open to design opportunities! <br> Please contact me if you want to collaborate or talk about my work! </p>
-
-          
-        </div>
-  
-        <div class="column">
-  
-          
-  
-        </div>
-  
-        <div class="column">
-  
-          <h4>Contact Info</h4>
-  
-          <ul>
-  
-            <li><a href="mailto:ckusnur@sfu.ca"><i class="fa fa-angle-right"></i> ckusnur@sfu.ca</a></li>
-  
-            <li><a href="https://drive.google.com/file/d/1SuNuU-njmvflmDI1zpZMzCskusapmaIy/view?usp=sharing"><i class="fa fa-angle-right"></i> Resume</a></li>
-  
-            <li><a href="https://www.linkedin.com/in/chinmayee-kusnur-03a2261b5"><i class="fa fa-angle-right"></i> LinkedIn</a></li>
-  
-          </ul>
-  
-          </ul>
-  
-        </div>
-  
-      </div>
-  
-      
-  
-    </footer>
-
-  </body>
+        </footer>
+    </main>
+</body>
 </html>
